@@ -5,7 +5,7 @@ on:
     branches:
       - github-action
     paths:
-      - 'apps/wanted/**'
+      - 'apps/**'
 
 jobs:
   test:
