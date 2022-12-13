@@ -1,11 +1,11 @@
-name: CI-wanted-app
+name: CI-wanted-admin
 
 on:
   push:
     branches:
       - github-action
     paths:
-      - 'apps/web/**'
+      - 'apps/admin/**'
 
 jobs:
   test:
@@ -24,7 +24,7 @@ jobs:
       - name: 📥 Monorepo install
         uses: ./.github/actions/yarn-install
 
-      - name: Build web-app
-        working-directory: apps/web
+      - name: Build admin-app
+        working-directory: apps/admin
         run: |
           yarn build
