@@ -15,7 +15,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">this is admin hello</a>
+          Welcome to <a href="https://nextjs.org">this is admin one more</a>
         </h1>
         <h2>{sayHello()}</h2>
         <Button variant="contained">hello</Button>
